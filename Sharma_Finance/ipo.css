@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'omega';
+    src: url(../br-omega-font-family-1725014613-0/BROmega-Medium-BF6556cee4bc2e2.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'omega', sans-serif;
+    line-height: 1.6;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,9,90,1) 71%, rgba(25,25,25,1) 100%);
+}
+
+.navcontainer {
+    font-family: 'omega', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo a {
+    color: #f83c86;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ipo-container {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.ipo-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ipo-header h1 {
+    color: white;
+}
+
+.ipo {
+    margin-top: 20px;
+}
+
+.ipo h2 {
+    color: white;
+}
+
+.ipo p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.ipo-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    color: #888;
+}
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer p,
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+
